@@ -14,8 +14,9 @@ function binary_search(list, item) {
             low = mid + 1
         }
     }
+    return null
 }
 
 console.log(
-    binary_search([1, 3, 5, 7, 9, 10], 1)
+    binary_search([1, 3, 5, 7, 9, 10], 9)
 )
